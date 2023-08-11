@@ -1,10 +1,8 @@
 test:
-	pytest -v --cov=ssmtoenv --disable-pytest-warnings &&\
-		readme-cov
+	pytest -v --cov=ssmtoenv --disable-pytest-warnings
 
 testhtml:
-	pytest -v --cov=ssmtoenv --cov-report=html --disable-pytest-warnings &&\
-		readme-cov
+	pytest -v --cov=ssmtoenv --cov-report=html --disable-pytest-warnings
 
 install:
 	poetry install
