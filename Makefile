@@ -9,6 +9,9 @@ testhtml:
 install:
 	poetry install
 
+install-requirements:
+	pip install -r requirements.txt
+
 requirements:
 	poetry export --without-hashes --format=requirements.txt > requirements.txt
 
