@@ -1,4 +1,6 @@
-# ssmtoenv - SSM Parameter to .env File Utility
+# Documentation
+
+## SSM Parameter to .env File Utility
 
 `ssmtoenv` is a command-line utility that allows you to fetch AWS Systems Manager (SSM) parameters and add them to a `.env` file. This tool is designed to simplify the process of retrieving and managing sensitive configuration parameters from AWS SSM Parameter Store and making them available for your applications in a local environment.
 
