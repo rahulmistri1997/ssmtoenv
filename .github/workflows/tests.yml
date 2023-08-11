@@ -27,6 +27,9 @@ jobs:
     - name: Install dependencies
       run: |
         make install-requirements
+    - name: Install Library
+      run: |
+        pip install .
     - name: Running Tests
       run: |
         make test
