@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ssmtoenv"
-version = "0.1.1"
+version = "0.1.2"
 description = "Fetch SSM parameters and add them to .env file"
 authors = ["Rahul Mistri <rahulmistri1997@gmail.com>"]
 readme = "README.md"
