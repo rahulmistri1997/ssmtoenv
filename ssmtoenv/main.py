@@ -78,7 +78,7 @@ class TyperOptionFetch:
         The function `aws_secret_key()` prompts the user to enter their AWS Secret Key and hides the
         input for security purposes.
         """
-        typer.Option(
+        return typer.Option(
             ...,
             prompt=True,
             hide_input=True,
